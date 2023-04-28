@@ -45,12 +45,6 @@ body {
 .conteudo-principal {
   background: rgb(36,0,31);
 background: linear-gradient(90deg, rgba(36,0,31,0.5) 0%, rgba(121,9,106,0.4) 84%, rgba(120,45,146,0.6) 100%);
-
-  /* background-color: #FF9A8B;
-background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%); */
-
-  /* background-image: url(assets/background.png); */
-  /* background: #ffa5f9; */
   display: flex;
   flex-direction: row;
   align-items: center;
