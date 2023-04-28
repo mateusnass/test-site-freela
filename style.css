@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;1,700&family=Roboto:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-size: 100%;
+  background:#f8efed;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px;
+}
+
+.cabecalho-logo{
+  height: 68px;
+}
+
+.cabecalho-menu{
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item{
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #BF3FBF;
+  font-size: 24px;
+}
+
+.conteudo{
+  margin-bottom: 48px;
+  border-top: 0.4px solid #a056c9;
+}
+
+.conteudo-principal {
+  background: rgb(36,0,31);
+background: linear-gradient(90deg, rgba(36,0,31,0.5) 0%, rgba(121,9,106,0.4) 84%, rgba(120,45,146,0.6) 100%);
+
+  /* background-color: #FF9A8B;
+background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%); */
+
+  /* background-image: url(assets/background.png); */
+  /* background: #ffa5f9; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 650px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.conteudo-principal-imagem{
+  height: 650px;
+  width: 50%;
+  padding-left: 100px;
+}
+
+.conteudo-principal-escrito{
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  font-weight: 1px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-right: 350px;
+}
+
+.conteudo-principal-escrito-subtitulo{
+ color: #a056c9;
+ font-size: 35px;
+ padding-bottom: 15px;
+ 
+}
+
+button{
+  background-color: #79096a; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.conteudo-principal-escrito-botao{
+  
+}
+
+.conteudo-principal-escrito-botao:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  
+}
+
+.texto-botao {
+  color: white;
+  
+}
+
+.conteudo-secundario {
+  height: 200px;
+  
+}
+
+.conteudo-agendar {
+  background: #00ffe1;
+  height: 200px;
+}
+
+.conteudo-agendar-texto{
+  color: #001d9c;
+}
+
+.conteudo-sobre {
+  height: 300px;
+}
+
+.rodape {
+  background: #a056c9;
+  
+  
+}
+
+.rodape-texto {
+  
+}
