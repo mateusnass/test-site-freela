@@ -42,15 +42,22 @@ body {
   border-top: 0.4px solid #a056c9;
 }
 
+
+
 .conteudo-principal {
-  background: rgb(36,0,31);
-background: linear-gradient(90deg, rgba(36,0,31,0.5) 0%, rgba(121,9,106,0.4) 84%, rgba(120,45,146,0.6) 100%);
+  background: #4568DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
   height: 650px;
+
   font-family: 'Alegreya Sans', sans-serif;
 }
 
@@ -67,12 +74,14 @@ background: linear-gradient(90deg, rgba(36,0,31,0.5) 0%, rgba(121,9,106,0.4) 84%
   text-align: center;
   color: #FFFFFF;
   padding-right: 350px;
+  
 }
 
 .conteudo-principal-escrito-subtitulo{
- color: #a056c9;
+ color: #840887;
  font-size: 35px;
  padding-bottom: 15px;
+ padding-top: 10px;
  
 }
 
@@ -108,17 +117,76 @@ button{
 }
 
 .conteudo-secundario {
-  height: 200px;
+  height: 600px;
+  
+}
+
+.conteudo-secundario-titulo{
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #a056c9;
+  font-size: 30px;
+   text-align: center;
+   padding-top: 60px;
+   padding-bottom: 10px;
+   
+}
+
+.conteudo-secundario-titulo-subtitulo{
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #9400D3;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 30px;
+}
+
+.conteudo-secundario-icones {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.alzheimer{
+  /* padding-right: 100px; */
+}
+
+.parkinson{
+  padding-left: 250px;
+}
+
+.enxaqueca{
+  padding-left: 250px;
+}
+
+.icone-titulo{
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #840887;
+  font-size: 30px;
+  /* align-items: center; */
+  text-align: center;
+  padding-top: 10px;
   
 }
 
 .conteudo-agendar {
-  background: #00ffe1;
+  background: #4568DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .conteudo-agendar-texto{
-  color: #001d9c;
+  
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #840887;
+  font-size: 30px;
+   text-align: center;
+   padding-bottom: 10px;
 }
 
 .conteudo-sobre {
@@ -126,7 +194,9 @@ button{
 }
 
 .rodape {
-  background: #a056c9;
+  background: #4568DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
   
 }
