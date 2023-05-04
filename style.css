@@ -207,19 +207,19 @@ button {
 .conteudo-sobre-titulo {
   text-transform: uppercase;
   font-family: "Alegreya Sans", sans-serif;
-  color: #840887;
+  color: black;
   font-size: 25px;
 }
 
 .conteudo-sobre-nome {
   font-family: "Alegreya Sans", sans-serif;
-  color: #9400d3;
+  color: #840887;
   font-size: 60px;
 }
 
 .conteudo-sobre-subitulo {
   font-family: "Alegreya Sans", sans-serif;
-  color: #840887;
+  color: black;
   font-size: 25px;
 
   padding-bottom: 20px;
@@ -231,8 +231,9 @@ button {
 
 .conteudo-lista {
   font-family: "Alegreya Sans", sans-serif;
-  color: #840887;
+  color: black;
   font-size: 24px;
+  padding-bottom: 7px;
 }
 
 .conteudo-sobre-imagem {
