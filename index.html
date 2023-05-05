@@ -11,12 +11,21 @@
 </head>
 
 <body>
-  <header class="cabecalho">
+  <header id="header">
     <a href="index.html"><img class="cabecalho-logo" src="assets/svg.svg" alt="Logo Principal"></a>
 
-    <nav class="cabecalho-menu">
-      <a class="cabecalho-menu-item" href="sobre.html">Sobre a Médica</a>
-      <a class="cabecalho-menu-item" href="pages/especialidades.html">Especialidades</a>
+    <nav id="nav">
+      <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-expanded="false" aria-controls="menu">
+        <span id="hamburguer"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li>
+          <a class="cabecalho-menu-item" href="sobre.html">Sobre a Médica</a>
+        </li>
+        <li>
+          <a class="cabecalho-menu-item" href="pages/especialidades.html">Especialidades</a>
+        </li>
+      </ul>
     </nav>
   </header>
 
