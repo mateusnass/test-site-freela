@@ -332,8 +332,8 @@ button {
 
 @media screen and (max-width: 600px) {
   
-  body{
-    width: 100vw;
+  *{
+    overflow-x: hidden;
   }
 
   #btn-mobile {
