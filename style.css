@@ -29,6 +29,8 @@ ul {
   align-items: center;
   justify-content: space-between;
   padding: 12px;
+  overflow-y: hidden;
+
 }
 
 .cabecalho-logo {
@@ -334,7 +336,6 @@ button {
   
   *{
     overflow-x: hidden;
-  overflow-y: hidden;
 
   }
 
@@ -384,6 +385,8 @@ button {
   color: #a056c9;
   border-top: 2px solid;
   width: 20px;
+  overflow-y: hidden;
+
  }
 
  #hamburguer::after, #hamburguer::before{
