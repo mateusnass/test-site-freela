@@ -32,7 +32,7 @@ ul {
 }
 
 .cabecalho-logo {
-  height: 68px;
+  height: 60px;
 }
 
 #nav {
@@ -334,6 +334,8 @@ button {
   
   *{
     overflow-x: hidden;
+  overflow-y: hidden;
+
   }
 
   #btn-mobile {
@@ -352,6 +354,7 @@ button {
    visibility: hidden;
    overflow-y: hidden;
     z-index: 1000;
+    
   }
 
   #nav.active #menu{
