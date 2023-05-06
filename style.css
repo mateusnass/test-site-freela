@@ -243,7 +243,6 @@ button {
   font-family: "Alegreya Sans", sans-serif;
   color: black;
   font-size: 25px;
-
   padding-bottom: 20px;
 }
 
@@ -486,7 +485,7 @@ button {
 
   .conteudo-sobre-texto {
     padding-right: 0px;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .conteudo-sobre-titulo{
@@ -502,18 +501,16 @@ button {
   }
 
   .conteudo-sobre-lista {
-    padding-left: 0;
-    
-    
+    /* padding-left: 0; */
+
   }
 
   .conteudo-lista{
     list-style: disc;
+    font-size: 20px;
   }
 
-  .rodape {
-    
-  }
+ 
 
   .conteudo-rodape {
    
