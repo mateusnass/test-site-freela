@@ -472,15 +472,74 @@ button {
   }
 
   .conteudo-sobre {
-    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
   }
 
   .conteudo-sobre-imagem {
-    display: none;
-    width: 80vw;
+    height: 35%;
+    padding-bottom: 30px;
+    width: 90vw;
+  }
+
+  .conteudo-sobre-texto {
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  .conteudo-sobre-titulo{
+    
+  }
+
+  .conteudo-sobre-subitulo{
+    font-size: 20px;
+  }
+
+  .conteudo-sobre-nome{
+    font-size: 40px;
+  }
+
+  .conteudo-sobre-lista {
+    padding-left: 0;
+    
+    
+  }
+
+  .conteudo-lista{
+    list-style: disc;
   }
 
   .rodape {
-    display: none;
+    
   }
+
+  .conteudo-rodape {
+   
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape-logo {
+  
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 15px;
+}
+
+.text-footer{
+  font-size: 18px;
+  align-items: center;
+}
+
+.copyright{
+  
+}
+
+.copyright-text{
+  font-size: 16px;
+  text-align: center;
+}
+
 }
