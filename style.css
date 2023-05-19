@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;1,700&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;1,700&family=Roboto:wght@100;700&family=Open+Sans:wght@300&display=swap");
 
 * {
   margin: 0;
@@ -11,7 +11,7 @@
 
 body {
   font-size: 100%;
-  background: #f8efed;
+  background: #e8e4d9;
 }
 
 body,
@@ -21,8 +21,9 @@ ul {
 }
 
 #header {
+  background-color: #8ebdb6;
   box-sizing: border-box;
-  height: 70px;
+  height: 90px;
   padding: 1rem;
   display: flex;
   flex-direction: row;
@@ -57,30 +58,20 @@ ul {
 
 #menu a{
   font-family: "Alegreya Sans", sans-serif;
-  color: #bf3fbf;
+  color: white;
   font-size: 24px;
+  
   display: block;
-  padding: .5rem;
+  padding: 2rem;
 }
 
 .conteudo {
   /* margin-bottom: 48px; */
-  border-top: 0.4px solid #a056c9;
+  /* border-top: 0.4px solid #a056c9; */
 }
 
 .conteudo-principal {
-  background: #4568dc; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #b06ab3,
-    #4568dc
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #b06ab3,
-    #4568dc
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -92,22 +83,24 @@ ul {
 }
 
 .conteudo-principal-imagem {
-  height: 75vh;
-  width: 40vw;
+  height: 90%;
+  width: 500;
+  border-radius: 40px;
   
 }
 
 .conteudo-principal-escrito {
   font-family: "Roboto", sans-serif;
   font-size: 35px;
-  font-weight: 1px;
+  font-weight: 100px;
   text-align: center;
-  color: #ffffff;
+  color: #063940;
   padding-right: 10%;
 }
 
 .conteudo-principal-escrito-subtitulo {
-  color: #840887;
+  font-family: 'Open Sans', sans-serif;
+  color: #3e838c;
   font-size: 35px;
   padding-bottom: 15px;
   padding-top: 10px;
@@ -117,10 +110,10 @@ button {
 }
 
 .conteudo-principal-escrito-botao {
-  background-color: #79096a;
+  background-color: #195e63;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 20px 80px;
   border-radius: 15px;
   /* width: 350px; */
   text-align: center;
@@ -143,12 +136,17 @@ button {
 }
 
 .conteudo-secundario {
+  background-color: #3e838c;
   height: 600px;
+  margin: 0px 20px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  border-radius: 20px;
 }
 
 .conteudo-secundario-titulo {
   font-family: "Alegreya Sans", sans-serif;
-  color: #a056c9;
+  color: #ece1c3;
   font-size: 30px;
   text-align: center;
   padding-top: 60px;
@@ -157,7 +155,7 @@ button {
 
 .conteudo-secundario-titulo-subtitulo {
   font-family: "Alegreya Sans", sans-serif;
-  color: #9400d3;
+  color: #ece1c3;
   font-size: 50px;
   text-align: center;
   font-weight: 30px;
@@ -185,7 +183,7 @@ button {
 
 .icone-titulo {
   font-family: "Alegreya Sans", sans-serif;
-  color: #840887;
+  color: #ece1c3;
   font-size: 30px;
   /* align-items: center; */
   text-align: center;
@@ -193,17 +191,7 @@ button {
 }
 
 .conteudo-agendar {
-  background: #4568dc; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #b06ab3,
-    #4568dc
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #b06ab3,
-    #4568dc
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   height: 200px;
   display: flex;
   flex-direction: column;
@@ -213,13 +201,16 @@ button {
 
 .conteudo-agendar-texto {
   font-family: "Alegreya Sans", sans-serif;
-  color: #840887;
+  color: #195e63;
   font-size: 30px;
   text-align: center;
   padding-bottom: 10px;
 }
 
 .conteudo-sobre {
+  background-color: #8ebdb6;
+  border-radius: 50px;
+  margin: 0 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -240,7 +231,7 @@ button {
 
 .conteudo-sobre-nome {
   font-family: "Alegreya Sans", sans-serif;
-  color: #840887;
+  color: #ece1c3;
   font-size: 60px;
 }
 
@@ -267,19 +258,7 @@ button {
   border-radius: 40px;
 }
 
-.rodape {
-  background: #4568dc; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #b06ab3,
-    #4568dc
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #b06ab3,
-    #4568dc
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+.rodape {}
 
 .conteudo-rodape {
   display: flex;
@@ -301,30 +280,21 @@ button {
   display: flex;
   flex-direction: column;
   text-justify: auto;
-
+  padding-left: 7vw;
   font-family: "Alegreya Sans", sans-serif;
-  color: white;
-  font-size: 20px;
+  color: black;
+  font-size: 24px;
 }
 
 .copyright {
-  background: #4568dc; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #b06ab3,
-    #4568dc
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #b06ab3,
-    #4568dc
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #063940;
 
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .copyright-text {
@@ -351,9 +321,9 @@ button {
     display: block;
     position: absolute;
     width: 100%;
-    top: 70px;
+    top: 90px;
     right: 0px;
-    background: #a056c9;
+    background: #3e838c;
    height: 0px ;
    transition: .6s;
    visibility: hidden;
@@ -363,7 +333,7 @@ button {
   }
 
   #nav.active #menu{
-    height: calc(100vh - 70px); 
+    height: calc(100vh - 90px); 
     visibility: visible;
    overflow-y: auto;
   }
@@ -386,7 +356,7 @@ button {
   }
 
  #hamburguer{
-  color: #a056c9;
+  color: #ece1c3;
   border-top: 2px solid;
   width: 20px;
   overflow-y: hidden;
@@ -427,7 +397,7 @@ button {
 
  .conteudo-principal-imagem{
   height: 60%;
-  width: 60%;
+  width: 80%;
   padding-left: 0;
  }
 
@@ -441,17 +411,20 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0px 0px;
+  border-radius: 2px;
+  gap: 20px;
   height: 90vh;
 }
 
 .conteudo-secundario-titulo{
-  padding-top: 20px;
-  font-size: 25px;
+  padding-top: 30px;
+  font-size: 20px;
 }
 
 .conteudo-secundario-titulo-subtitulo{
-  padding-bottom: 15px;
-  font-size: 25px;
+  /* padding-bottom: 15px; */
+  font-size: 30px;
 }
 
   .conteudo-secundario-icones {
@@ -459,21 +432,24 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 0;
+    
+    padding-top: 20px;
   }
 
   .alzheimer{
-    padding-bottom: 10px;
+    padding-bottom: 30px;
   }
 
   .parkinson {
     padding-left: 0;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+
     
   }
   
   .enxaqueca {
     padding-left: 0;
+
   }
 
   .icone-titulo{
@@ -481,14 +457,16 @@ button {
   }
 
   .conteudo-sobre {
-    height: 120vh;
+    height: 100vh;
+    border-radius: 5px;
+  margin: 0 0px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
   }
 
   .conteudo-sobre-imagem {
-    height: 35%;
+    height: 48%;
     padding-bottom: 30px;
     width: 90vw;
   }
@@ -518,9 +496,12 @@ button {
   .conteudo-lista{
     list-style: disc;
     font-size: 20px;
+    /* padding-bottom: 0px; */
   }
 
- 
+ .rodape{
+  height: 30vh;
+ }
 
   .conteudo-rodape {
    
@@ -529,10 +510,12 @@ button {
 }
 
 .rodape-logo {
-  
+  height: 130px;
+  max-width: 200px;
+  padding-top: 0px;
   padding-left: 0;
   padding-right: 0;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
 }
 
 .text-footer{
