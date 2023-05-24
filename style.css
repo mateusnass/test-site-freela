@@ -11,7 +11,7 @@
 
 body {
   font-size: 100%;
-  background: #e8e4d9;
+  background: white;
 }
 
 body,
@@ -21,7 +21,9 @@ ul {
 }
 
 #header {
-  background-color: #8ebdb6;
+  /* background-color: #c4a5b5; */
+  box-shadow: 0 3px 6px 0px rgba(0, 0, 0, .16);
+  margin-bottom: 4px;
   box-sizing: border-box;
   height: 90px;
   padding: 1rem;
@@ -37,7 +39,10 @@ ul {
 
 
 .cabecalho-logo {
-  height: 15vh;
+  padding-top: 10px;
+  max-height: 11vh;
+  max-width: 15vw;
+  /* min-width: vw; */
 
 }
 
@@ -58,49 +63,59 @@ ul {
 
 #menu a{
   font-family: "Alegreya Sans", sans-serif;
-  color: white;
-  font-size: 24px;
+  color: #5e3d92;
+  font-size: 20px;
+  text-transform: uppercase;
   
   display: block;
-  padding: 2rem;
+  padding: 1.8rem;
 }
 
 .conteudo {
   /* margin-bottom: 48px; */
   /* border-top: 0.4px solid #a056c9; */
+  
+
 }
 
 .conteudo-principal {
+  background-image: url(assets/back-principal.png);
+  background-size: 100% 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  
   
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 75vh;
+  height: 90vh;
   gap: 100px;
+  margin: 0 0px 0px 0px;
   font-family: "Alegreya Sans", sans-serif;
 }
 
-.conteudo-principal-imagem {
+/* .conteudo-principal-imagem {
   height: 90%;
   width: 500;
-  border-radius: 40px;
+  border-radius: 20px;
   
-}
+} */
 
 .conteudo-principal-escrito {
   font-family: "Roboto", sans-serif;
   font-size: 35px;
   font-weight: 100px;
   text-align: center;
-  color: #063940;
-  padding-right: 10%;
+  color: white;
+  padding-bottom: 15%;
+  
 }
 
 .conteudo-principal-escrito-subtitulo {
   font-family: 'Open Sans', sans-serif;
-  color: #3e838c;
+  color: white;
   font-size: 35px;
   padding-bottom: 15px;
   padding-top: 10px;
@@ -110,11 +125,13 @@ button {
 }
 
 .conteudo-principal-escrito-botao {
-  background-color: #195e63;
+  background-color: #4a3174;
   border: none;
   color: white;
-  padding: 20px 80px;
-  border-radius: 15px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 80px;
+  
+  border-radius: 80px;
   /* width: 350px; */
   text-align: center;
   text-decoration: none;
@@ -131,31 +148,59 @@ button {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
+.conteudo-principal-escrito-botao-online {
+  background-color: #4a3174;
+  border: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 100px;
+  
+  border-radius: 80px;
+  /* width: 350px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.conteudo-principal-escrito-botao-online:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
 .texto-botao {
   color: white;
 }
 
 .conteudo-secundario {
-  background-color: #3e838c;
-  height: 600px;
-  margin: 0px 20px;
+  background-color: #e7ddde;
+  box-shadow: 0 3px 6px 0px rgba(0, 0, 0, .16);
+  margin: 20px;
+  height: 42vh;
+  margin: 0% 5%;
+  position: relative;
+  top: -8rem;
   /* margin-left: 10px;
   margin-right: 10px; */
-  border-radius: 20px;
+  border-radius: 100px;
 }
 
 .conteudo-secundario-titulo {
   font-family: "Alegreya Sans", sans-serif;
-  color: #ece1c3;
+  color: #5e3d92;
   font-size: 30px;
   text-align: center;
-  padding-top: 60px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 
 .conteudo-secundario-titulo-subtitulo {
   font-family: "Alegreya Sans", sans-serif;
-  color: #ece1c3;
+  color: #5e3d92;
   font-size: 50px;
   text-align: center;
   font-weight: 30px;
@@ -166,7 +211,7 @@ button {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 .alzheimer {
@@ -174,16 +219,16 @@ button {
 }
 
 .parkinson {
-  padding-left: 250px;
+  padding-left: 100px;
 }
 
 .enxaqueca {
-  padding-left: 250px;
+  padding-left: 100px;
 }
 
 .icone-titulo {
   font-family: "Alegreya Sans", sans-serif;
-  color: #ece1c3;
+  color: #5e3d92;
   font-size: 30px;
   /* align-items: center; */
   text-align: center;
@@ -191,8 +236,11 @@ button {
 }
 
 .conteudo-agendar {
+  position: relative;
+ 
+  top: -6rem;
   
-  height: 200px;
+  height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -201,16 +249,18 @@ button {
 
 .conteudo-agendar-texto {
   font-family: "Alegreya Sans", sans-serif;
-  color: #195e63;
+  color: #5e3d92;
   font-size: 30px;
   text-align: center;
   padding-bottom: 10px;
 }
 
 .conteudo-sobre {
-  background-color: #8ebdb6;
+  position: relative;
+  top: -4rem;
+  background-color: #c4a5b5;
   border-radius: 50px;
-  margin: 0 20px;
+  margin: 0 80px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -253,27 +303,70 @@ button {
   padding-bottom: 7px;
 }
 
+.icone-universidades{
+  display: flex;
+  flex-direction: row;
+}
+
+.unievangelica{
+  width: 196px;
+  height: 41px;
+  overflow-y: hidden;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+
+.ufg{
+  width: 6vw;
+  height: 6vh;
+  overflow-y: hidden;
+  padding-right: 20px;
+}
+
+.puc{
+  width: 6vw;
+  height: 6vh;
+  overflow-y: hidden;
+}
+
 .conteudo-sobre-imagem {
   height: 80%;
   border-radius: 40px;
 }
 
-.rodape {}
+.maps{
+
+  top: -8rem;
+  height: 30vh;
+  width: 100%;
+}
+
+.rodape {
+  
+}
 
 .conteudo-rodape {
+  background-color: #7e6d99;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  
   padding-top: 5px;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 
 .rodape-logo {
-  height: 170px;
-  width: 170px;
+  
+  max-height: 25vh;
+  max-width: 90px;
+  min-width: 20vw;
   /* padding-left: 20vw; */
   /*  */
+}
+
+.copyright{
+  
 }
 
 .text-footer {
@@ -282,29 +375,42 @@ button {
   text-justify: auto;
   padding-left: 7vw;
   font-family: "Alegreya Sans", sans-serif;
-  color: black;
-  font-size: 24px;
+  color: white;
+  font-size: 20px;
 }
 
 .copyright {
-  background-color: #063940;
+  background-color: #7e6d99;
 
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  /* padding-bottom: 20px;
+  padding-top: 20px; */
+  margin: 0;
 }
 
 .copyright-text {
-  font-size: 20px;
-  color: white;
+  font-size: 18px;
+  color: black;
 }
 
 .link-mateus {
-  color: #fffff0;
+  color: black;
 }
+
+
+
+
+
+
+
+
+/* Celular */
+
+
+
 
 @media screen and (max-width: 600px) {
   
@@ -313,8 +419,20 @@ button {
 
   }
 
+  #header{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cabecalho-logo{
+    max-height: 22vh;
+    max-width: 28vw;
+  }
+
+
   #btn-mobile {
     display: block;
+    padding-left: 30px;
   }
 
   #menu {
@@ -323,7 +441,7 @@ button {
     width: 100%;
     top: 90px;
     right: 0px;
-    background: #3e838c;
+    background: #7e6d99;
    height: 0px ;
    transition: .6s;
    visibility: hidden;
@@ -356,7 +474,7 @@ button {
   }
 
  #hamburguer{
-  color: #ece1c3;
+  color: #7e6d99;
   border-top: 2px solid;
   width: 20px;
   overflow-y: hidden;
@@ -407,6 +525,24 @@ button {
   padding-right: 0;
  }
 
+ .conteudo-principal-escrito-titulo{
+  padding-top: 60px;
+ }
+
+ .botao-presencial{
+  padding-top: 20px;
+ }
+
+ .conteudo-principal-escrito-botao{
+  font-size: 18px;
+  padding: 10px 20px;
+ }
+
+ .conteudo-principal-escrito-botao-online{
+  font-size: 17px;
+  padding: 10px 42px;
+ }
+
  .conteudo-secundario {
   display: flex;
   flex-direction: column;
@@ -414,7 +550,7 @@ button {
   margin: 0px 0px;
   border-radius: 2px;
   gap: 20px;
-  height: 100vh;
+  height: 90vh;
 }
 
 .conteudo-secundario-titulo{
@@ -456,8 +592,12 @@ button {
     font-size: 25px;
   }
 
+  .conteudo-agendar{
+    height: 30vh;
+  }
+
   .conteudo-sobre {
-    height: 100vh;
+    height: 110vh;
     border-radius: 5px;
   margin: 0 0px;
     display: flex;
@@ -499,8 +639,28 @@ button {
     /* padding-bottom: 0px; */
   }
 
+  .unievangelica{
+    width: 120px;
+    height: 35px;
+padding-top: 10px;
+    padding-right: 10px;
+  }
+
+  .ufg{
+    width: 28vw;
+  }
+
+  .puc{
+    width: 25vw;
+  }
+  
+  .maps{
+    top: 0;
+  }
+
  .rodape{
-  height:35vh;
+  background-color: #7e6d99;
+  height: 35vh;
  }
 
   .conteudo-rodape {
