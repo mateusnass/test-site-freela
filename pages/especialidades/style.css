@@ -79,7 +79,7 @@ ul {
 }
 
 .conteudo-principal {
-  background-image: url(assets/back-principal.png);
+  background-image: url(/assets/back-principal.png);
   background-size: 100% 100%;
   background-position: center top;
   background-repeat: no-repeat;
@@ -186,8 +186,8 @@ button {
   margin: 20px;
   /* height: 42vh; */
   margin: 0% 5%;
-  position: relative;
-  top: -8rem;
+  /* position: relative;
+  top: -8rem; */
   border-radius: 100px;
 }
 
@@ -238,9 +238,9 @@ button {
 }
 
 .conteudo-agendar {
-  position: relative;
+  /* position: relative;
  
-  top: -6rem;
+  top: -6rem; */
   
   height: 20vh;
   display: flex;
@@ -258,8 +258,8 @@ button {
 }
 
 .conteudo-sobre {
-  position: relative;
-  top: -4rem;
+  /* position: relative;
+  top: -4rem; */
   background-color: #c4a5b5;
   border-radius: 50px;
   margin: 0 50px;
@@ -337,8 +337,8 @@ button {
 }
 
 .maps{
-
-  top: -8rem;
+  padding-top: 2rem;
+  /* top: -8rem; */
   height: 30vh;
   width: 100%;
 }

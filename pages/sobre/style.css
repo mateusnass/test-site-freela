@@ -238,9 +238,7 @@ button {
 }
 
 .conteudo-agendar {
-  position: relative;
- 
-  top: -6rem;
+  
   
   height: 20vh;
   display: flex;
@@ -258,8 +256,8 @@ button {
 }
 
 .conteudo-sobre {
-  position: relative;
-  top: -4rem;
+  /* position: relative;
+  top: -4rem; */
   background-color: #c4a5b5;
   border-radius: 50px;
   margin: 0 50px;
@@ -337,7 +335,7 @@ button {
 }
 
 .maps{
-
+  padding-top: 2rem;
   top: -8rem;
   height: 30vh;
   width: 100%;
